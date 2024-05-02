@@ -1,0 +1,21 @@
+*{
+box-sizing: border-box;
+}
+
+
+body{
+color: rgba(255, 255, 255, 0.87);
+background-color: #242424;
+font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+
+a {
+  color: rgba(255, 255, 255, 0.87);
+  text-decoration: none;
+  transition: color 0.3s ease; /* Add smooth transition */
+}
+
+a:hover {
+  color: rgba(255, 255, 255, 1); /* Change color on hover */
+}
