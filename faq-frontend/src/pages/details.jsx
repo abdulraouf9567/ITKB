@@ -1,8 +1,10 @@
 import { useParams } from "react-router-dom"
 import { useState ,useEffect} from "react";
 import DetailCard from "../components/detailCard";
+import ClipLoader from 'react-spinners/ClipLoader';
 
 function Details(){
+  const [loadingInProgress, setLoading] = useState(true);
   const [data, setData] = useState([]);
   const {id}=useParams()
 
@@ -14,6 +16,7 @@ function Details(){
         const jsonData = await response.json();
       
         setData(jsonData);
+        setLoading(false)
       } catch (error) {
         console.error('Error fetching data:', error);
       }
@@ -27,7 +30,15 @@ function Details(){
   return (
     <>
     <div className="container py-5">
-    <DetailCard value={data} />
+        {loadingInProgress?(
+          <div className="text-center loader-container">
+          <ClipLoader color={'#fff'} size={150} />
+        </div>
+        ):(
+          <DetailCard value={data} />
+        )}
+      
+    
     </div>
 
     </>

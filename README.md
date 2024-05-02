@@ -1,15 +1,22 @@
 # ITKB PROJECT FOR TAHALUF
 
-ITKB is a small project which is developed using MERN stack technology
+ITKB (IT Knowledge Base) is a small project developed using the MERN stack technology. It serves as a platform for storing and accessing IT-related knowledge and information.
 
 ## Installation
 
-Follow the instructions for running the application successfully
-1. Go to the project faq-backend and inside the folder db, there exists a script called db.js, run the db.js script using the command below:
-```bash
-    node db.js
-```
-2. Run npm install from the parent folder of the both faq-backend and faq-frontend
+Follow these instructions to run the application successfully:
 
-3. Environment variables are used. Upon request can share the variables.
+1. Navigate to the `faq-backend` project directory and run the `db.js` script located inside the `db` folder using the following command:
+
+    ```bash
+    node db.js
+    ```
+
+2. Run `npm install` from the parent folder containing both `faq-backend` and `faq-frontend`.
+
+3. Environment variables are used in the project. Contact the project owner to request access to these variables.
+
+## Live View
+
+Explore the live view of the ITKB project [here](https://itkb-frontend.vercel.app/). The live view provides access to the ITKB platform, where you can browse IT-related knowledge and information.
 
