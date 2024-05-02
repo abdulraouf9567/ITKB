@@ -5,9 +5,7 @@ function Navbar(){
     <>
       <header className="header d-flex align-items-center">
         <nav className="container">
-        
-        <h4>IT SUPPORT KNOWLEDGE BASE</h4>
-    
+        <h4 className="text-uppercase">UAE University details</h4>
         </nav>
       </header>
     </>

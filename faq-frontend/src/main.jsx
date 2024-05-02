@@ -3,7 +3,10 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css'
+
 import HomePage from './pages/listkb.jsx'
+import ListUniversities from './pages/listuniversities.jsx';
+
 import DetailsPage from './pages/details.jsx'
 import Header from './components/navbar'
 import Banner from './components/banner'
@@ -15,13 +18,17 @@ import {createBrowserRouter,RouterProvider} from 'react-router-dom'
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/faq',
     element: <HomePage/>,
     errorElement: <Error />,
   },
   {
     path: '/details/:id',
     element: <DetailsPage/>,
+  },
+  {
+    path: '/',
+    element: <ListUniversities/>,
   }
 ])
 
