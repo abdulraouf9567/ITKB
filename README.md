@@ -7,8 +7,9 @@ ITKB is a small project which is developed using MERN stack technology
 Follow the instructions for running the application successfully
 1. Go to the project faq-backend and inside the folder db, there exists a script called db.js, run the db.js script using the command below:
 ```bash
-node db.js
+    node db.js
 ```
 2. Run npm install from the parent folder of the both faq-backend and faq-frontend
 
+3. Environment variables are used. Upon request can share the variables.
 

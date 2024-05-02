@@ -8,7 +8,7 @@ function ListKb(){
     // Function to fetch data from the API
     const fetchData = async () => {
       try {
-        const response = await fetch('http://localhost:3000/api/kbroutes');
+        const response = await fetch('https://itkb-backend.onrender.com/api/kbroutes');
         const jsonData = await response.json();
         setData(jsonData);
       } catch (error) {

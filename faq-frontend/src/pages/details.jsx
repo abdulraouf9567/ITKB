@@ -10,7 +10,7 @@ function Details(){
     // Function to fetch data from the API
     const fetchData = async () => {
       try {
-        const response = await fetch(`http://localhost:3000/api/kbroutes/${id}`);
+        const response = await fetch(`https://itkb-backend.onrender.com/api/kbroutes/${id}`);
         const jsonData = await response.json();
       
         setData(jsonData);
