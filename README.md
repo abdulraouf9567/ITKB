@@ -1,4 +1,4 @@
-# ITKB PROJECT FOR TAHLUF
+# ITKB PROJECT FOR TAHALUF
 
 ITKB is a small project which is developed using MERN stack technology
 
